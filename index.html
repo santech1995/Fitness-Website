@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCB Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset */
+        body{
+            font-family: 'Baloo Bhai 2', cursive;
+            /* height: 1500px; */
+            /* width: 650px; */
+            margin: 0px 0px;
+            padding: 1px;
+            background: url('https://image.freepik.com/free-photo/side-view-man-gym-lifting-weights_23-2148353079.jpg');
+            background-repeat: no-repeat;
+            background-position: 1px 1px;
+            background-size: 1500px 760px;
+            color: white;
+        }
+        .left{
+            display: inline-block;
+            border: 0px solid red;
+            position: absolute;
+            left:34px;
+            top: 20px;
+           
+        }
+        .left img{
+            width: 65px;
+            
+        }
+        .left .logo{
+            text-align: center;
+            font-size: 12px;
+        }
+        .mid{
+            display: block;
+            width: 42%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+
+        } 
+        .right{
+            position: absolute;
+            right:34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+        .navbar li a:hover,.navbar li a:active{
+            text-decoration: underline;
+            color: rgb(201, 192, 192);
+
+        }
+        .btn{
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid white;
+            border-radius: 12px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .container{
+            border: 2px solid white;
+            margin: 30px 196px;
+            padding: 6px 7px;
+            width: 70%;
+            /* line-height: 110px; */
+            border-radius: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .form-group input{
+            font-family: 'Baloo Bhai 2', cursive;
+            text-align: center;
+            display: block;
+            width: 282px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 22px;
+            border-radius: 8px;
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: 31px auto;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!--  left box for logo -->
+        <div class="left">
+            <img src="logo.jpeg" alt="">
+            <div class="logo">SCB Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            </button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+       <h1>Join The Best Gym in Bangalore</h1>
+       <form action="noaction.php">
+           <div class="form-group">
+               <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                  <input type="text" name="" placeholder="Enter your age">
+            </div> 
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div> 
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div> 
+            <div class="form-group">
+                <input type="text" name="" placeholder="Email Id">
+            </div> 
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div> 
+            <div>
+                <button class="btn">Submit</button>
+            </div>  
+       </form> 
+    </div>
+    
+</body>
+</html>
